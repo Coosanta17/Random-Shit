@@ -18,6 +18,6 @@ public class RandomShit implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-		LOGGER.info("\nShit just got random!");
+		LOGGER.info("Shit just got random!");
 	}
 }
