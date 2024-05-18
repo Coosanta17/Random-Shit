@@ -3,23 +3,26 @@
 	"id": "coosantas_random_shit",
 	"version": "${version}",
 	"name": "Coosanta's Random Shit",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Random shit that Coosanta made.",
 	"authors": [
-		"Me!"
+		"Coosanta"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://discord.gg/wQtqZjYXqa",
+		"sources": "https://github.com/Coosanta17/Random-Shit"
 	},
-	"license": "CC0-1.0",
+	"license": "GPL-3.0-only",
 	"icon": "assets/coosantas_random_shit/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.coosanta.random_shit.CoosantasRandomShit"
+			"net.coosanta.random_shit.RandomShit"
+		],
+		"client": [
+			"net.coosanta.random_shit.RandomShitClient"
 		],
 		"fabric-datagen": [
-			"net.coosanta.random_shit.CoosantasRandomShitDataGenerator"
+			"net.coosanta.random_shit.RandomShitDataGenerator"
 		]
 	},
 	"mixins": [
