@@ -1,5 +1,6 @@
 package net.coosanta.random_shit;
 
+import net.coosanta.random_shit.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,7 @@ public class RandomShit implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		LOGGER.info("Shit just got random!");
 	}
 }
