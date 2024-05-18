@@ -15,7 +15,7 @@ public class ModItems {
     public static final Item SKULLEMOJI = registerItem("skull_emoji", new Item(new FabricItemSettings()));
     public static final Item SHIT = registerItem("random_shit", new Item(new FabricItemSettings()));
 
-    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
+    private static void addItemsToRandomShitItemGroup(FabricItemGroupEntries entries){
         entries.add(TROLLFACE);
         entries.add(SKULLEMOJI);
         entries.add(SHIT);
@@ -28,6 +28,6 @@ public class ModItems {
     public static void registerModItems(){
         RandomShit.LOGGER.info("Registering mod items for "+RandomShit.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToRandomShitItemGroup);
     }
 }
