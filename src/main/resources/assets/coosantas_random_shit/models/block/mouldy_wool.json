@@ -1,4 +1,5 @@
 {
+  "__comment": "texture taken (stolen) from https://www.planetminecraft.com/project/the-backrooms-5763207/",
   "parent": "block/cube_all",
   "textures": {
     "all": "coosantas_random_shit:block/mouldy_wool"
