@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item TROLLFACE = registerItem("trollface", new Item(new FabricItemSettings()));
     public static final Item SKULLEMOJI = registerItem("skull_emoji", new Item(new FabricItemSettings()));
-    public static final Item SHIT = registerItem("random_shit", new Item(new FabricItemSettings()));
+    public static final Item SHIT = registerItem("shit", new Item(new FabricItemSettings()));
 
     private static void addItemsToRandomShitItemGroup(FabricItemGroupEntries entries){
         entries.add(TROLLFACE);

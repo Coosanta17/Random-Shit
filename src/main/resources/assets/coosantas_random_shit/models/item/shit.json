@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "coosantas_random_shit:item/shit"
+  }
+}
