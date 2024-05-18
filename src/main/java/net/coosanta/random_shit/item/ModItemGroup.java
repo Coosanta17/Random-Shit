@@ -1,6 +1,7 @@
 package net.coosanta.random_shit.item;
 
 import net.coosanta.random_shit.RandomShit;
+import net.coosanta.random_shit.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -17,6 +18,9 @@ public class ModItemGroup {
                         entries.add(ModItems.SHIT);
                         entries.add(ModItems.TROLLFACE);
                         entries.add(ModItems.SKULLEMOJI);
+
+                        entries.add(ModBlocks.MOULDY_WOOL);
+
                     }).build());
 
     public static void registerItemGroup(){

@@ -1,5 +1,6 @@
 package net.coosanta.random_shit;
 
+import net.coosanta.random_shit.block.ModBlocks;
 import net.coosanta.random_shit.item.ModItemGroup;
 import net.coosanta.random_shit.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -14,7 +15,9 @@ public class RandomShit implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroup.registerItemGroup();
+
 		ModItems.registerModItems();
-		LOGGER.info("Shit just got random!");
+		ModBlocks.registerModBlocks();
+		LOGGER.info("\nShit just got random!");
 	}
 }
