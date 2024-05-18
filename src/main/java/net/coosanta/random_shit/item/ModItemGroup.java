@@ -20,6 +20,7 @@ public class ModItemGroup {
                         entries.add(ModItems.SKULLEMOJI);
 
                         entries.add(ModBlocks.MOULDY_WOOL);
+                        entries.add(ModBlocks.SHITSTAINED_WOOL);
 
                     }).build());
 

@@ -15,6 +15,8 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block MOULDY_WOOL = registerBlock("mouldy_wool",
             new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).mapColor(MapColor.PALE_YELLOW)));
+    public static final Block SHITSTAINED_WOOL = registerBlock("shitstained_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BROWN_WOOL)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
