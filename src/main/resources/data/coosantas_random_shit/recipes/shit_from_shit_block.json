@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "catergory": "building",
+  "ingredients": [
+    {
+      "item": "coosantas_random_shit:shit_block"
+    }
+  ],
+  "result": {
+    "item": "coosantas_random_shit:shit",
+    "count": 9
+  }
+}

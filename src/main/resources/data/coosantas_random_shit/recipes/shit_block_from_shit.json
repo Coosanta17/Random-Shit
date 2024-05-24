@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "coosantas_random_shit:shit"
+    }
+  },
+  "result": {
+    "item": "coosantas_random_shit:shit_block"
+  }
+}
