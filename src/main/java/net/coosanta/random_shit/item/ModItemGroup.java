@@ -21,6 +21,7 @@ public class ModItemGroup {
 
                         entries.add(ModBlocks.MOULDY_WOOL);
                         entries.add(ModBlocks.SHITSTAINED_WOOL);
+                        entries.add(ModBlocks.SHIT_BLOCK);
 
                     }).build());
 

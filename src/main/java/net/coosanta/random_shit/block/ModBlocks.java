@@ -17,7 +17,9 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).mapColor(MapColor.PALE_YELLOW)));
     public static final Block SHITSTAINED_WOOL = registerBlock("shitstained_wool",
             new Block(FabricBlockSettings.copyOf(Blocks.BROWN_WOOL)));
-    // ^^ Textures of these blocks taken (stolen) from https://www.planetminecraft.com/project/the-backrooms-5763207/
+    // Textures of  ^^^ these ^^^ blocks taken (stolen) from https://www.planetminecraft.com/project/the-backrooms-5763207/
+    public static final Block SHIT_BLOCK = registerBlock("shit_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.MUD)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
