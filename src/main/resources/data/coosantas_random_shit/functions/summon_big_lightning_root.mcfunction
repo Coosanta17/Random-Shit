@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,Invulnerable:1b,Silent:1b,Tags:["big_lightning","racist"]}
