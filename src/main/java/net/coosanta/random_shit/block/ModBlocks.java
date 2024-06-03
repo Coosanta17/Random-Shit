@@ -20,6 +20,8 @@ public class ModBlocks {
     // Textures of  ^^^ these ^^^ blocks taken (stolen) from https://www.planetminecraft.com/project/the-backrooms-5763207/
     public static final Block SHIT_BLOCK = registerBlock("shit_block",
             new Block(FabricBlockSettings.copyOf(Blocks.MUD)));
+    public static final Block DRIED_SHIT_BLOCK = registerBlock("dried_shit_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.PACKED_MUD)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
