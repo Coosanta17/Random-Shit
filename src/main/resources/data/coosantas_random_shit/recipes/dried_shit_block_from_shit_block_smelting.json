@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 900,
+  "experience": 780.9,
+  "ingredient": {
+    "item": "coosantas_random_shit:shit_block"
+  },
+  "result": "coosantas_random_shit:dried_shit_block"
+}
