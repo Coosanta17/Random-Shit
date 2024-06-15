@@ -19,10 +19,17 @@ public class ModItemGroup {
                         entries.add(ModItems.TROLLFACE);
                         entries.add(ModItems.SKULLEMOJI);
 
+
                         entries.add(ModBlocks.MOULDY_WOOL);
                         entries.add(ModBlocks.SHITSTAINED_WOOL);
                         entries.add(ModBlocks.SHIT_BLOCK);
                         entries.add(ModBlocks.DRIED_SHIT_BLOCK);
+
+                        entries.add(ModBlocks.VOID_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_VOID_ORE);
+                        entries.add(ModBlocks.NETHER_VOID_ORE);
+                        entries.add(ModBlocks.END_VOID_ORE);
+                        entries.add(ModItems.VOID);
 
                     }).build());
 

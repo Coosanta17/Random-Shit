@@ -15,11 +15,14 @@ public class ModItems {
     public static final Item SKULLEMOJI = registerItem("skull_emoji", new Item(new FabricItemSettings()));
     public static final Item SHIT = registerItem("shit", new Item(new FabricItemSettings()));
 
+    public static final Item VOID = registerItem("void", new Item(new FabricItemSettings()));
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(TROLLFACE);
         entries.add(SKULLEMOJI);
         entries.add(SHIT);
+        entries.add(VOID);
     }
 
 

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "coosantas_random_shit:block/end_void_ore"
+  }
+}

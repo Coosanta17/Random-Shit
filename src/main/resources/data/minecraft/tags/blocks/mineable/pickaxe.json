@@ -2,6 +2,11 @@
   "replace": false,
   "values": [
     "coosantas_random_shit:dried_shit_block",
-    "coosantas_random_shit:shit_block"
+    "coosantas_random_shit:shit_block",
+
+    "coosantas_random_shit:void_ore",
+    "coosantas_random_shit:deepslate_void_ore",
+    "coosantas_random_shit:nether_void_ore",
+    "coosantas_random_shit:end_void_ore"
   ]
 }

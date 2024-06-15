@@ -2,11 +2,17 @@
   "item.coosantas_random_shit.trollface": "Trollface",
   "item.coosantas_random_shit.skull_emoji": "Skull Emoji",
   "item.coosantas_random_shit.shit": "Shit",
+  "item.coosantas_random_shit.void": "Void",
 
   "block.coosantas_random_shit.mouldy_wool": "Mouldy Wool",
   "block.coosantas_random_shit.shitstained_wool": "Shitstained Wool",
   "block.coosantas_random_shit.shit_block": "Block of Shit",
   "block.coosantas_random_shit.dried_shit_block": "Dried Shit",
+
+  "block.coosantas_random_shit.void_ore": "Void Ore",
+  "block.coosantas_random_shit.deepslate_void_ore": "Deepslate Void Ore",
+  "block.coosantas_random_shit.nether_void_ore": "Nether Void Ore",
+  "block.coosantas_random_shit.end_void_ore": "End Stone Void Ore",
 
   "itemgroup.coosantas_random_shit": "Coosanta's Random Shit"
 }
